@@ -234,7 +234,7 @@ body {
     padding: 1rem 1.5rem;
     gap: 2rem;
     align-items: start;
-    box-shadow: 0 0 0 100vmax hsl(0, 0%, 8%, 0.5);
+    box-shadow: 0 0 0 100vmax hsl(0, 0%, 8%, 0.75);
   }
   /*---CONTAINER MOBILE-button open of menu nav-----*/
   .container-nav-btn-open {
