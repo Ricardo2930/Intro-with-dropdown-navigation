@@ -1,4 +1,4 @@
-# Intro Section with Dropdown
+# Project with Dropdown Navigation
 ## Design Desktop
 <img src="./design/desktop-design.jpg">
 <img src="./design/active-states.jpg">
