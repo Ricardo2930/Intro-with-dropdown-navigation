@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/image-hero-mobile.png"
+    />
+    <link rel="stylesheet" href="./stylus.css" />
+    <title>Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="container-nav">
+        <a class="container-nav-logo" href="">
+          <img
+            class="container-nav-logo-image"
+            src="./images/logo.svg"
+            alt=""
+          />
+        </a>
+
+        <ul class="container-nav-ul">
+          <button class="container-nav-ul-close">
+            <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg">
+              <g fill="#151515" fill-rule="evenodd">
+                <path d="m2.393.98 22.628 22.628-1.414 1.414L.979 2.395z" />
+                <path d="M.98 23.607 23.609.979l1.414 1.414L2.395 25.021z" />
+              </g>
+            </svg>
+          </button>
+          <li class="menu-nav-ul-li">
+            <a class="menu-nav-ul-link" href=""
+              >Features
+              <img class="arrow-down" src="./images/icon-arrow-down.svg" alt=""
+            /></a>
+            <ul class="menu-nav-ul-li-item-features">
+              <li class="menu-nav-ul-li-item-inside">
+                <a class="menu-nav-ul-li-item-inside-link" href=""
+                  ><img src="./images/icon-todo.svg" alt="" /> Todo List</a
+                >
+              </li>
+              <li class="menu-nav-ul-li-item-inside">
+                <a class="menu-nav-ul-li-item-inside-link" href=""
+                  ><img src="./images/icon-calendar.svg" alt="" /> Calendar</a
+                >
+              </li>
+              <li class="menu-nav-ul-li-item-inside">
+                <a class="menu-nav-ul-li-item-inside-link" href=""
+                  ><img src="./images/icon-reminders.svg" alt="" /> Reminders</a
+                >
+              </li>
+              <li class="menu-nav-ul-li-item-inside">
+                <a class="menu-nav-ul-li-item-inside-link" href=""
+                  ><img src="./images/icon-planning.svg" alt="" /> Plannig</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="menu-nav-ul-li">
+            <a class="menu-nav-ul-link-company" href=""
+              >Company
+              <img
+                class="arrow-down-company"
+                src="./images/icon-arrow-down.svg"
+                alt=""
+            /></a>
+            <ul class="menu-nav-ul-li-item-company">
+              <li class="menu-nav-ul-li-item-inside">
+                <a class="menu-nav-ul-li-item-inside-link" href="">History</a>
+              </li>
+              <li class="menu-nav-ul-li-item-inside">
+                <a class="menu-nav-ul-li-item-inside-link" href="">Our Team</a>
+              </li>
+              <li class="menu-nav-ul-li-item-inside">
+                <a class="menu-nav-ul-li-item-inside-link" href="">Blog</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-nav-ul-li">
+            <a class="menu-nav-ul-link" href="">Careers</a>
+          </li>
+          <li class="menu-nav-ul-li">
+            <a class="menu-nav-ul-link" href="">About</a>
+          </li>
+          <li class="menu-nav-ul-li-buttons">
+            <div class="container-nav-buttons">
+              <button class="login">Login</button>
+              <button class="register">Register</button>
+            </div>
+          </li>
+        </ul>
+
+        <button class="container-nav-btn-open">
+          <svg width="32" height="18" xmlns="http://www.w3.org/2000/svg">
+            <g fill="#151515" fill-rule="evenodd">
+              <path d="M0 0h32v2H0zM0 8h32v2H0zM0 16h32v2H0z" />
+            </g>
+          </svg>
+        </button>
+      </nav>
+
+      <div class="container-content">
+        <div class="container-content-client">
+          <h1>Make remote work</h1>
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <button>Learn more</button>
+          <div class="container-content-client-images">
+            <img
+              class="container-content-client-images-one"
+              src="./images/client-databiz.svg"
+              alt=""
+            />
+            <img
+              class="container-content-client-images-one"
+              src="./images/client-audiophile.svg"
+              alt=""
+            />
+            <img
+              class="container-content-client-images-one"
+              src="./images/client-meet.svg"
+              alt=""
+            />
+            <img
+              class="container-content-client-images-one"
+              src="./images/client-maker.svg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="container-content-image">
+          <img
+            class="container-content-image-desktop"
+            src="./images/image-hero-desktop.png"
+            alt=""
+          />
+          <img
+            class="container-content-image-mobile"
+            src="./images/image-hero-mobile.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./app.js"></script>
+</html>
